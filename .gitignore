@@ -1,0 +1,63 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# PyCharm specific
+.idea/
+
+# Bytecode and compiled files
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.dll
+*.exe
+*.out
+
+# Environment variable files
+.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Test and coverage
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache/
+nosetests.xml
+*.cover
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database files
+*.sqlite
+*.db
+
+# Others
+*.bak
+*.tmp
+*.swp
