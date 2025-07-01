@@ -24,7 +24,7 @@ def verify_user(db: Session, log: Access_log):
     )
     if not db_query:
         raise HTTPException(status_code=404, detail="Rfid UID not found")
-    user_id = db.query(models.User.id).filter(models.User.rfid_uid == log.rfid_uid)
+    user_id = db.query(models.User.id).filter(models.User.rfid_uid == log.rfid_uid).first()
     latest_log = (
         db.query(models.AccessLog)
         .filter(models.AccessLog.user_id == user_id)
