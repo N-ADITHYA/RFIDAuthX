@@ -124,4 +124,3 @@ def verify_user(db: Session, log: Access_log):
         "logged_at": db_log.logging_time.isoformat()
     }
 
-
