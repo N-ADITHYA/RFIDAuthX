@@ -122,5 +122,7 @@ Got feedback or wanna try it out?
 ---
 
  ## License
-MIT License
+
+This project is licensed under the [MIT License](LICENSE).
+
 
