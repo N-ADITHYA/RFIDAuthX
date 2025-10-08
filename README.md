@@ -115,7 +115,7 @@ Part 3 – [Power Mode ON (Logs, Live Tracking)](https://rfid-tag.hashnode.dev/p
  ## Want to Contribute or Connect?
 Got feedback or wanna try it out?
 
- Contact me at: www.iadiee.xyz/#contact <br/>
+ Contact me at: www.iadiee.live/#contact <br/>
  Star the repo if you liked it
  Issues and PRs are welcome!
 
